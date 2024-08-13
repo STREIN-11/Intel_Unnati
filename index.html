@@ -1,0 +1,41 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript" src="jquery-2.1.1.js"></script>
+<script type="text/javascript">
+<script>
+window.onload = function() {
+ 
+
+var dataPoints = []
+$.get("test.txt",function (data){
+	var x=0;
+	var allLines = data.split('\n');
+	if(allLines.length > 0) {
+        for(var i=0; i< allLines.length; i++) {
+            dataPoints.push({x: x , y: parseInt(allLines[i])});
+            x += .25;
+        }
+    }
+    var chart = new CanvasJS.Chart("chartContainer", {
+	theme: "light2",
+
+	data: [{
+		type: "column",
+		yValueFormatString: "#,##0.0#",
+		toolTipContent: "{y} Mbps",
+		dataPoints: dataPoints
+	}]
+	});
+	chart.render();
+});
+}
+
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>   
