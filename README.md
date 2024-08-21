@@ -6,6 +6,10 @@ If any farmers want to obseve or want to manupulate all the process there is als
 the motor functionality with their mobile phone through the web app.
 
 
+## <h3 align="left">Over View</h3>
+![Screenshot (410)](https://github.com/user-attachments/assets/74a23a68-c30b-445b-bd52-6ffa61953bbd)
+![Screenshot (409)](https://github.com/user-attachments/assets/a4d77345-7898-40a7-8e38-f13bd18443d2)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/subhamay-ganguly-526972248/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/subhamay-ganguly-526972248/" height="30" width="40" /></a>
